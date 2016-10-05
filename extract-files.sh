@@ -24,7 +24,7 @@ MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 REPO_ROOT="$MY_DIR"/../../..
-CM_ROOT="$REPO_ROOT"
+MK_ROOT="$REPO_ROOT"
 HELPER=
 for x in "${REPO_ROOT}"/vendor/*; do
   if [ -f "$x/build/tools/extract_utils.sh" ]; then
