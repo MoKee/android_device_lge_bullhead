@@ -2,14 +2,14 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_bullhead
+PRODUCT_NAME := mk_bullhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
 TARGET_MANUFACTURER := LGE

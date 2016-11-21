@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_lge_bullhead",
+    "target_path": "vendor/lge/bullhead"
+  },
+  {
     "repository": "android_kernel_lge_bullhead",
     "target_path": "kernel/lge/bullhead"
   }
